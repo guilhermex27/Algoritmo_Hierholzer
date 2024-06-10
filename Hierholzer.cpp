@@ -66,7 +66,7 @@ void hierholzer(vector<vector<int>> &G, int u, int n){
             }
             proximo = vizinhos[0];
 
-            cout << vertice << " --> " << proximo << endl;
+            cout << vertice << " > " << proximo << endl;
 
             aux.push(proximo);
 
