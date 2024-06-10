@@ -70,7 +70,7 @@ void hierholzer(vector<vector<int>> &G, int u, int n){
 
             aux.push(proximo);
 
-            cout << "Push = " << proximo << endl;
+            cout << "Push " << proximo << endl;
 
             G[proximo][vertice] = 0;
             G[vertice][proximo] = 0;
@@ -79,7 +79,7 @@ void hierholzer(vector<vector<int>> &G, int u, int n){
         }
         else{
             aux.pop();
-            cout << "Pop = "<< vertice << endl;
+            cout << "Pop "<< vertice << endl;
             caminho.emplace_back(vertice);
         }
     }
